@@ -1,1 +1,41 @@
-{"name":"create-prediction-market-agent","version":"2.0.0","description":"Scaffold a prediction market agent project. Works with LangChain, CrewAI, OpenAI Agents SDK, or vanilla TypeScript.","type":"module","bin":{"create-prediction-market-agent":"./dist/cli.js"},"files":["dist"],"scripts":{"build":"tsup"},"keywords":["create","scaffold","prediction-market","ai-agent","langchain","crewai","openai-agents","mcp","kalshi","polymarket","world-state","starter","template"],"author":"SimpleFunctions <hello@simplefunctions.dev>","license":"MIT","repository":{"type":"git","url":"https://github.com/spfunctions/create-prediction-market-agent"},"devDependencies":{"tsup":"^8.0.0","typescript":"^5.4.0"}}
+{
+  "name": "create-prediction-market-agent",
+  "version": "2.1.0",
+  "description": "Scaffold a prediction market agent project. Works with LangChain, OpenAI Agents SDK, or vanilla TypeScript. Powered by SimpleFunctions.",
+  "type": "module",
+  "bin": {
+    "create-prediction-market-agent": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "create",
+    "scaffold",
+    "prediction-market",
+    "ai-agent",
+    "langchain",
+    "openai-agents",
+    "mcp",
+    "kalshi",
+    "polymarket",
+    "world-state",
+    "starter",
+    "template"
+  ],
+  "author": "SimpleFunctions <hello@simplefunctions.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spfunctions/create-prediction-market-agent"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}

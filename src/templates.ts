@@ -9,7 +9,7 @@ async function main() {
   // Check for edges
   const { edges: edgeList } = await edges()
   for (const e of edgeList.slice(0, 3)) {
-    console.log(\\\`Edge: \\\${e.title} (\\\${e.executableEdge}c)\\\`)
+    console.log(\`Edge: \${e.title} (\${e.executableEdge}c)\`)
   }
 }
 
